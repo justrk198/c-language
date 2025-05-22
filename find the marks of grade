@@ -1,0 +1,19 @@
+#include <stdio.h>
+int main() 
+{
+    int n;
+    printf("Enter a number (0-100): ");
+    scanf("%d", &n);
+    if(n<0||n>100)
+    printf("invaid number plese check marks");
+    else if(n>=90)
+    printf("wow you a grade=+A");
+    else if(n>=80)
+    printf("wow you got grade=+b");
+    else if(n>=70)
+    printf("wow yo got grade=+c");
+    else
+    printf("sorry you fail try next time batter:");
+
+    return 0;
+}
